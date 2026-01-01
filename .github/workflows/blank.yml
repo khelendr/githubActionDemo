@@ -15,4 +15,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Hello world step
-        run: echo "Welcome to github actions"
+        run: 
+          echo "Welcome to github actions first task"
+          echo "This is github action second task"
